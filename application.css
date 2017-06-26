@@ -17,12 +17,12 @@ body{
 
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  body{
-      padding:10px;
-  }
+// @media (max-width: 768px) {
+//   body{
+//       padding:10px;
+//   }
     
-}
+// }
 
 // /* Medium devices (desktops, 992px and up) */
 // @media (min-width: 992px) {
