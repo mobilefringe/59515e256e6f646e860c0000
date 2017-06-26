@@ -130,23 +130,6 @@
     <section class="main_footer main_container">
         <div class="footer_row">
             <div class="footer_col">
-                <h5 class="heading">MANAGEMENT OFFICE HOURS</h5>
-                <img src="//codecloud.cdn.speedyrails.net/sites/57f50a1b6e6f6426d2010000/image/png/1463686637000/clock.png" class="hours_clock" alt="hours clock">
-                <div class="hours_footer" id="hours_container">
-                    <script id="hours_template" type="x-tmpl-mustache/text">
-                        <p>
-                            {%raw%}
-                                {{day}} 
-                                <br />
-                                {{hour}}
-                            {%endraw%}
-                        </p>
-                    </script>
-                </div>
-                <div class="clearfix"></div>
-                <hr class="visible_phone mobile_separator" />
-            </div>
-            <div class="footer_col">
                 <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
                 <div class="newsletter_div">
                     <form action="//mobilefringe.createsend.com/t/d/s/ithdul/" method="post" id="newsletter_form">
