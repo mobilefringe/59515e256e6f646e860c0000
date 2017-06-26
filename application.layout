@@ -63,20 +63,7 @@
 
 <body>
     <header class="main_container main_nav">
-        <div class="position_relative">
-            <img src="//codecloud.cdn.speedyrails.net/sites/57f50a1b6e6f6426d2010000/image/png/1463501219000/open_menu.png" class="open_menu visible_phone" alt="open menu">
-            <ul class="mobile_menu visible_phone">
-                <li><a href="/stores">HOME</a></li>
-                <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
-                <li><a href="/dine">STORES</a></li>
-                <li><a href="/location">PROMOTIONS</a></li>
-                <li><a href="#" id="mobile_dd">PATH MAP</a></li>
-                <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>-->
-                <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>-->
-                
-               
-            </ul>
-        </div>
+        
         <div class="row">
             <div class="logo_container">
                 <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/5890c5296e6f640dd9000000/image/png/1485882895000/logo.png" class="main_logo" /></a>
