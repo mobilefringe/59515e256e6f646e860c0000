@@ -9,7 +9,7 @@ function init(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle();
 		$('menu-icon').hide();
-		
+		$('logo_container').toggle();
 	});
 	
     // $('#open_menu').click(function(){
