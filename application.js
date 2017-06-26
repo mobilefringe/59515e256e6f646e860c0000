@@ -10,16 +10,16 @@ function init(){
 		$('#mobile_menu').slideToggle();
 	});
 	
-    $('#open_menu').click(function(){
-        $('#mobile_menu').slideDown();
-        $(this).hide();
-        $('#close_menu').show();
-    });
+    // $('#open_menu').click(function(){
+    //     $('#mobile_menu').slideDown();
+    //     $(this).hide();
+    //     $('#close_menu').show();
+    // });
     
-    $('#close_menu').click(function(){
-        $('#mobile_menu').slideUp();
-        $(this).hide();
-        $('#open_menu').show();
-    });
+    // $('#close_menu').click(function(){
+    //     $('#mobile_menu').slideUp();
+    //     $(this).hide();
+    //     $('#open_menu').show();
+    // });
 	
 }
