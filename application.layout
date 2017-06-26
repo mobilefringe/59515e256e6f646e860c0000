@@ -57,7 +57,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('https://twinpine.mallmaverick.com/api/v3/twinpine/all.json');
+        setEndPoint('http://torontopath.mallmaverick.com//api/v3/torontopath/all.json');
     </script>
 </head>
 
