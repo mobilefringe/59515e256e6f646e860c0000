@@ -970,7 +970,7 @@ body {
     .logo_container {
         width: 100%;
         text-align: left;
-        padding : 20px;
+        padding : 20px 20px 0px 20px;
     }
     .banner_image_li {
         height: 180px;
