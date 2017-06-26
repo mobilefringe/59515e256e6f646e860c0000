@@ -8,6 +8,8 @@ function init(){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle();
+		$('menu-icon').hide();
+		
 	});
 	
     // $('#open_menu').click(function(){
