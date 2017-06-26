@@ -455,6 +455,7 @@ body {
     width: 190px;
     float: none;
     margin-bottom: 15px
+    background-color:#000;
 }
 .newsletter_control:focus {
     outline: none;
