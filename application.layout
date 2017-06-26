@@ -79,15 +79,15 @@
                 <div id="menu_page">
                     
                 </div>
-                <!--<ul class="mobile_menu visible_phone">-->
-                <!--    <li><a href="/stores">HOME</a></li>-->
-                <!--    <li><a href="/events-and-promotions">YOUR LOCATION</a></li>-->
-                <!--    <li><a href="/dine">STORES</a></li>-->
-                <!--    <li><a href="/location">PROMOTIONS</a></li>-->
-                <!--    <li><a href="#" id="mobile_dd">PATH MAP</a></li>-->
-                    <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>-->
-                    <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>-->
-                <!-- </ul>-->
+                <ul class="mobile_menu visible_phone">
+                    <li><a href="/stores">HOME</a></li>
+                    <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
+                    <li><a href="/dine">STORES</a></li>
+                    <li><a href="/location">PROMOTIONS</a></li>
+                    <li><a href="#" id="mobile_dd">PATH MAP</a></li>
+                    <li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>
+                    <li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>
+                 </ul>
             </div>
         </div>
     </header>
