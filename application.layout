@@ -140,7 +140,7 @@
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
         <img src="http://assets.codecloudapp.com/sites/59515e256e6f646e860c0000/image/png/1498506682000/MFLogo2x.png" class="footer_mf_logo" alt="">
-        <p>
+        <p class="subscribe_text>
             Subscribe to our newsletter and get information catered to the retail property management industry and updated features.
         </p>
             <div class="newsletter_div">
