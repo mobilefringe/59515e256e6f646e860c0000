@@ -11,13 +11,13 @@ function init(){
 	});
 	
     $('#open_menu').click(function(){
-        $('#menu').slideDown();
+        $('#mobile_menu').slideDown();
         $(this).hide();
         $('#close_menu').show();
     });
     
     $('#close_menu').click(function(){
-        $('#menu').slideUp();
+        $('#mobile_menu').slideUp();
         $(this).hide();
         $('#open_menu').show();
     });
