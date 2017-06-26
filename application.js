@@ -8,7 +8,7 @@ function init(){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle();
-		$('menu-icon').toggle();
+		$('#menu-icon').toggle();
 		$('logo_container').toggle();
 	});
 	
