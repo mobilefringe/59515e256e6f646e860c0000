@@ -969,7 +969,7 @@ body {
     }
     .logo_container {
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding-left: 20px;
         padding-right: 20px
     }
