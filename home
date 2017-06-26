@@ -3,6 +3,6 @@
 </center>
 <script>
     $(document).ready(function(){
-        initE();
+        init();
     });
 </script>
