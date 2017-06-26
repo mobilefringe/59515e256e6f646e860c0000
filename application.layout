@@ -158,7 +158,7 @@
                 </form>
             </div>
             <p class="footer_text">
-                Powered by <a href="//mobilefringe.com" target="_blank">Mobile Fringe</a>. &copy; Copyright 2017
+                Powered by <a href="//mobilefringe.com" target="_blank"><u>Mobile Fringe</u></a>. &copy; Copyright 2017
             </p>
         </div>
     </section>
