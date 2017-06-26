@@ -1,6 +1,6 @@
-<center>
+<div>
     Blank Website
-</center>
+</div>
 <script>
     $(document).ready(function(){
         init();
