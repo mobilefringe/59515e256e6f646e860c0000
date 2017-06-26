@@ -24,20 +24,20 @@ body{
     
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
- body{
-      padding:30px;
-  }
+// /* Medium devices (desktops, 992px and up) */
+// @media (min-width: 992px) {
+//  body{
+//       padding:30px;
+//   }
     
     
-}
+// }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-   body{
-      padding:50px;
-  }
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) {
+//   body{
+//       padding:50px;
+//   }
     
     
-}
+// }
