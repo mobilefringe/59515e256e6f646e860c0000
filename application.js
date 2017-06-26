@@ -7,7 +7,7 @@ function test_function(){
 function init(){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
-		$('#mobile_menu').slideToggle();
+		$('#menu_page').slideToggle();
 	});
 	
     // $('#open_menu').click(function(){
