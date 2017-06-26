@@ -10,4 +10,16 @@ function init(){
 		$('#menu').slideToggle();
 	});
 	
+    $('#open_menu').click(function(){
+        $('#menu').slideDown();
+        $(this).hide();
+        $('#close_menu').show();
+    });
+    
+    $('#close_menu').click(function(){
+        $('#menu').slideUp();
+        $(this).hide();
+        $('#open_menu').show();
+    });
+	
 }
