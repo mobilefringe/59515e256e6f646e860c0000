@@ -78,14 +78,14 @@
                 <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/menu Button 2x.png" class="open_menu visible_phone" alt="open menu" id="menu-icon">
                 <div id="menu_page">
                     <ul>
-                    <li><a href="/stores">HOME</a></li>
-                    <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
-                    <li><a href="/dine">STORES</a></li>
-                    <li><a href="/location">PROMOTIONS</a></li>
-                    <li><a href="#" id="mobile_dd">PATH MAP</a></li>
-                    <li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>
-                    <li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>
-                 </ul>
+                        <li><a href="/stores">HOME</a></li>
+                        <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
+                        <li><a href="/dine">STORES</a></li>
+                        <li><a href="/location">PROMOTIONS</a></li>
+                        <li><a href="#" id="mobile_dd">PATH MAP</a></li>
+                        <li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>
+                        <li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>
+                    </ul>
                  kjfdln 
                  dfjkn
                  zdfjkv'lijdfn
