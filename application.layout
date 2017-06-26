@@ -69,11 +69,11 @@
                 <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498506681000/PathLogo2x.png" class="main_logo" /></a> 
             </div>
             <div id="menu-icon">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <div class="position_relative">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/menu Button 2x.png" class="open_menu visible_phone" alt="open menu">
                 <ul class="mobile_menu visible_phone">
