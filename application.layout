@@ -141,7 +141,6 @@
     </section>
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
-            <h5 class="heading">NEWSLETTER SUBSCRIPTION</h5>
             <div class="newsletter_div">
                 <form action="//mobilefringe.createsend.com/t/d/s/ithdul/" method="post" id="newsletter_form">
                     <input name="cm-ithdul-ithdul" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required />
