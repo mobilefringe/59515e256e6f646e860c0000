@@ -145,10 +145,10 @@
                 <form action="//mobilefringe.createsend.com/t/d/s/ithdul/" method="post" id="newsletter_form">
                     <input name="cm-ithdul-ithdul" type="text" placeholder="Susbcribe to Newsletter" class="newsletter_control" required />
                     <button class="newsletter_btn animated_btn">Submit</button>
-                    <label class="newsletter_label">
-                        <input id="newsletter_agree" type="checkbox" />
-                        I agree to receive newsletters from Twin Pines Mall.
-                    </label>
+                    <!--<label class="newsletter_label">-->
+                    <!--    <input id="newsletter_agree" type="checkbox" />-->
+                    <!--    I agree to receive newsletters from Twin Pines Mall.-->
+                    <!--</label>-->
                     <p class="hidden_now" id="success_subscribe">
                         Thank you for subscribing!
                     </p>
