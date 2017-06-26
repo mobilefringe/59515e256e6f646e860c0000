@@ -72,7 +72,7 @@
                 <li><a href="/location">PROMOTIONS</a></li>
                 <li><a href="#" id="mobile_dd">PATH MAP</a></li>
                 <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>-->
-                <li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>
+                <!--<li class="hidden_now mobile_menu_dd"><a href="/pages/twinpine-contact-us">CONTACT</a></li>-->
                 
                
             </ul>
