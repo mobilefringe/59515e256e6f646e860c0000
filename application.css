@@ -1027,7 +1027,7 @@ body {
         width: 30px;
         padding: 17px 0;
         position: absolute;
-        left: 20px;
+        right: 20px;
         z-index: 999;
         transform: scaleY(1);
         transition: 500ms transform
