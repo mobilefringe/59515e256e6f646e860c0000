@@ -403,7 +403,6 @@ body {
     padding: 15px 20px
 }
 .footer_text {
-    font-family: Georgia-Italic;
     font-size: 11px;
     color: #FFFFFF;
     letter-spacing: 0px;
@@ -989,7 +988,6 @@ body {
         margin: 20px 0px
     }
     .footer_text {
-        font-family: Georgia-Italic;
         font-size: 10px;
         color: #FFFFFF;
         letter-spacing: 0px;
