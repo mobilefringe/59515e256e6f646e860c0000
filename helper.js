@@ -1,13 +1,14 @@
 $('document').ready(function() {
-});
-function init(e){
-    $('#menu-icon').click(function(){
+     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle(100,"linear");
 		$('#menu-icon').toggle();
 		$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
         // $('.logo_container').toggle();
 	});
+});
+function init(e){
+   
 	
     // $('#open_menu').click(function(){
     //     $('#mobile_menu').slideDown();
