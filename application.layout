@@ -94,7 +94,7 @@
                             <a href="/location"><label>YOUR LOCATION</label></a>
                             <a href="/stores"><label>STORES</label></a>
                             <a href="/promotions"><label>PROMOTIONS</label></a>
-                            <a href="/stores"><label>>PATH MAP</label></a>
+                            <a href="/map"><label>>PATH MAP</label></a>
                         </div>
                     </div>
                 </div>
