@@ -8,9 +8,9 @@
             Dine
         </div>
         <div class="cat_name" id="dine_stores_container">
-        <script id="dine_stores_template">
-            
-        </script>
+            <script id="dine_stores_template">
+                
+            </script>
             
         </div>
         <hr>
