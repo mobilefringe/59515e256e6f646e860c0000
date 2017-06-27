@@ -18,7 +18,7 @@ function init(){
     //     $('#close_menu').show();
     // });
     
-    $('#close_menu').click(function(){
+    $('.close_menu').click(function(){
         $('#mobile_menu').slideUp();
         $(this).hide();
         $('#open_menu').show();
