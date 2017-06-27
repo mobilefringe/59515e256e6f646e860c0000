@@ -47,7 +47,7 @@
         //renderGeneral('#category_list_container','#category_list_template', categories);
         
         $("#dine").click(function(){
-            
+            $("#dine_stores").show();
         });
         show_content();
         
