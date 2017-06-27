@@ -1,4 +1,5 @@
 $('document').ready(function() {
+    init(e);
 });
 function init(e){
     $('#menu-icon').click(function(){
