@@ -7,7 +7,7 @@
         <div class="all_caps cat_name" id="dine">
             Dine
         </div>
-        <div class="hidden_now">
+        <div class="hidden_now" id="dine_store_list">
         <div class="cat_name" id="dine_stores_container">
             <script id="dine_stores_template" type="x-tmpl-mustache/text">
                 <div class="col-xs-6">
