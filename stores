@@ -45,6 +45,10 @@
         //renderStoreListCatetories('#category_list_container','#category_list_template', categories,stores);
         
         //renderGeneral('#category_list_container','#category_list_template', categories);
+        
+        $("#dine").click(function(){
+            
+        })
         show_content();
         
     }
