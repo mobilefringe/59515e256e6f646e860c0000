@@ -15,7 +15,21 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(){
-        init();
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
     });
+    
+    function renderAll(){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            directionNav: false,        
+            prevText: "Previous",
+            nextText: "Next"
+        });
+        $("#giftcard").show();
+        show_content();
+        
+    }
 </script>
