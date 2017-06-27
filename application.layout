@@ -91,10 +91,10 @@
                         <hr>
                         <div>
                             <a href="/"><label class="all_caps">HOME</label></a>
-                            <a href="/location"><label>YOUR LOCATION</label></a>
-                            <a href="/stores"><label>STORES</label></a>
-                            <a href="/promotions"><label>PROMOTIONS</label></a>
-                            <a href="/map"><label>>PATH MAP</label></a>
+                            <a href="/location"><label class="all_caps">YOUR LOCATION</label></a>
+                            <a href="/stores"><label class="all_caps">STORES</label></a>
+                            <a href="/promotions"><label class="all_caps">PROMOTIONS</label></a>
+                            <a href="/map"><label>PATH MAP</label></a>
                         </div>
                     </div>
                 </div>
