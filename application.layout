@@ -89,7 +89,7 @@
                         <hr>
                          <h4 class="all_caps menu_title"> Discover The Toronto Path</h4>
                         <hr>
-                        <div>
+                        <div class="menu_btn_holder">
                             <a href="/"><label class="all_caps menu_buttons">HOME</label></a>
                             <a href="/location"><label class="all_caps menu_buttons">YOUR LOCATION</label></a>
                             <a href="/stores"><label class="all_caps menu_buttons">STORES</label></a>
