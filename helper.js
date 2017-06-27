@@ -1,6 +1,6 @@
 $('document').ready(function() {
 });
-function init(){
+function init(e){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle(100,"linear");
