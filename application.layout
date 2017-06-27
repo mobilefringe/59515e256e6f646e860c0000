@@ -68,12 +68,6 @@
             <div class="logo_container">
                 <a href="/"><img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498506681000/PathLogo2x.png" class="main_logo" /></a> 
             </div>
-            <!--<div id="menu-icon">-->
-            <!--  <span></span>-->
-            <!--  <span></span>-->
-            <!--  <span></span>-->
-            <!--  <span></span>-->
-            <!--</div>-->
             <div class="position_relative">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/menu Button 2x.png" class="open_menu visible_phone menu-icon" alt="open menu" id="menu-icon">
                 <div id="menu_page">
@@ -106,18 +100,6 @@
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
     </section>
-    <!--<section class="main_footer main_container">-->
-    <!--    <div class="footer_row">-->
-    <!--        <div class="footer_col">-->
-                
-    <!--        </div>-->
-    <!--        <div class="footer_col hidden_phone">-->
-    <!--            <a class="pull-right view_more_btn" href="https://www.instagram.com" target="_blank">view more ></a>-->
-    <!--            <h5 class="heading">INSTAGRAM</h5>-->
-    <!--            <div id="instafeed"></div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
     <section class="copyright_footer main_container">
         <div class="text-center visible_phone">
         <img src="http://assets.codecloudapp.com/sites/59515e256e6f646e860c0000/image/png/1498506682000/MFLogo2x.png" class="footer_mf_logo" alt="">
