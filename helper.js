@@ -1,4 +1,4 @@
-$('document').ready(function() {
+$('document').ready(function(e) {
     init(e);
 });
 function init(e){
