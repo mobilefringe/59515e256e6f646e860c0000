@@ -44,9 +44,6 @@
         e.preventDefault();
         window.location.href = "/search?query=" + $('#mobile_search_box').val();
     });
-        show_content();
-        
-    }
     
     $('#mobile_search_box').on('input', function() {
         $('#search_results_mobile').show();
@@ -62,5 +59,14 @@
             //console.log(getSearchResults($('#search_input').val(),100));
         }
     });
-          
+    $('.close-search-mobile').click(function(){
+        var search_results = getSearchResults('xxxxxxxxxxxxxxxx',0,0);
+        renderSearchResultsTemplate('#search_results_mobile_container','#search_results_mobile_template',search_results);
+        $('#mobile_search_box').val('');
+    }); 
+        show_content();
+        
+    }
+    
+    
 </script>
