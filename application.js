@@ -395,4 +395,250 @@ function renderHours(container, template, collection, type){
     
     $(container).show();
     $(container).html(item_rendered.join(''));
-};
+}
+
+function renderPromotions(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url  = val.promo_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                val.image_url = store_details.store_front_url_abs;
+            }
+            
+        }
+        else{
+            val.store_name = "St. Vital Centre";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+        }
+        
+        if(val.image_url.indexOf('missing.png') > 0){
+            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+        }
+        if(val.eventable_id){
+            val.type="events";
+        }
+        else {
+            val.type="promotions";
+        }
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMMM D")
+        }
+        else{
+            val.dates = start.format("MMMM D") + " - " + end.format("MMMM D")
+        }
+        val.day = start.format("ddd").toLowerCase();
+        val.month = start.format("MMM");
+        val.date = start.format("DD");
+        val.main_host= getPropertyDetails().mm_host;
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+
+function renderPromoDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug;
+            val.store_name = store_details.name;
+            val.image_url  = val.promo_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+                }
+                else{
+                    val.image_url = store_details.store_front_url_abs;
+                }
+            }
+        }
+        else{
+            val.store_name = "St. Vital Centre";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+        }
+        
+        if(val.promo_image_url_abs.indexOf('missing.png') > -1){
+            val.promo_image_show="display:none";
+        }
+        
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMMM D")
+        }
+        else{
+            val.dates = start.format("MMMM D") + " - " + end.format("MMMM D")
+        }
+        val.day = start.format("ddd").toLowerCase();
+        val.month = start.format("MMM");
+        val.date = start.format("DD");
+        val.main_host= getPropertyDetails().mm_host;
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+
+
+function renderStoreDetailsHours(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        switch(val.day_of_week) {
+            case 0:
+                val.day = "Sunday";
+                break;
+            case 1:
+                val.day = "Monday";
+                break;
+            case 2:
+                val.day = "Tuesday";
+                break;
+            case 3:
+                val.day = "Wednesday";
+                break;
+            case 4:
+                val.day = "Thursday";
+                break;
+            case 5:
+                val.day = "Friday";
+                break;
+            case 6:
+                val.day = "Saturday";
+                break;
+            
+        }
+        var open_time = in_my_time_zone(moment(val.open_time), "h:mmA");
+        var close_time = in_my_time_zone(moment(val.close_time), "h:mmA");
+       
+        if (val.is_closed == true){
+            val.hour_string = "Closed"
+        } else {
+            val.hour_string = open_time + " - " + close_time;
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+
+function renderEvents(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.eventable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.eventable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url = store_details.store_front_url_abs;
+        }
+        else{
+            val.store_name = "St. Vital Centre";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+        }
+        if(val.event_image_url_abs.indexOf('missing.png') < 0){
+            val.logo = val.event_image_url_abs;
+        }
+        else{
+            if(val.image_url.indexOf('missing.png') < 0){
+                val.logo = val.image_url;
+            }
+            else{
+                val.logo = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+            }
+        }
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+function renderEventDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.eventable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.eventable_id);
+            val.store_detail_btn = store_details.slug;
+            val.store_name = store_details.name;
+            val.image_url  = val.event_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
+                    val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+                }
+                else{
+                    val.image_url = store_details.store_front_url_abs;
+                }
+            }
+        }
+        else{
+            val.store_name = "St. Vital Centre";
+            val.image_url  = val.event_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+            }
+        }
+        
+        if (val.tags.indexOf("#living_room") >= 0){
+            val.store_name = "The Living Room";
+        }
+        
+        if(val.event_image_url_abs.indexOf('missing.png') > -1){
+            val.promo_image_show="display:none";
+        }
+        
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMMM D")
+        }
+        else{
+            val.dates = start.format("MMMM D") + " - " + end.format("MMMM D")
+        }
+        val.day = start.format("ddd").toLowerCase();
+        val.month = start.format("MMM");
+        val.date = start.format("DD");
+        val.main_host= getPropertyDetails().mm_host;
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
