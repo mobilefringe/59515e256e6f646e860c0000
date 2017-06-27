@@ -21,7 +21,7 @@ function init(){
     
     $('.close_menu').click(function(){
         $('#menu_page').slideUp();
-        $(this).hide();
+        //$(this).hide();
         $('#menu-icon').toggle();
         $(".custom_backdrop").remove();
         // $('.logo_container').toggle();
