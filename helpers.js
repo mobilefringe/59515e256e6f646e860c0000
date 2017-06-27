@@ -14,7 +14,14 @@ $('document').ready(function(e) {
         $(".custom_backdrop").remove();
         // $('.logo_container').toggle();
     });
-
+    $('#search_input').keyup(function(e){
+        showSearchResults();
+    });
+    
+    $('#search_input').on('input', function() {
+        showSearchResults();
+    });
+    
 });
 function init(e){
     
