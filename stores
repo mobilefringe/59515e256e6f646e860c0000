@@ -11,7 +11,7 @@
         <div class="hidden_now" id="dine_store_list">
             <div class="" id="dine_stores_container">
                 <script id="dine_stores_template" type="x-tmpl-mustache/text">
-                    <div class="row">
+                    <div class="row cat_name">
                         <div class="col-xs-6">
                             {{name}} 
                             <br/>
