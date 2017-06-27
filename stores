@@ -4,8 +4,8 @@
     </div>
     <h4 class="all_caps home_title"> Discover The Toronto Path</h4>
     
-    <div id="cat_container">
-        <script id="cat_template" type="x-tmpl-mustache/text">
+    <div id="category_list_container">
+        <script id="category_list_template" type="x-tmpl-mustache/text">
             
         </script>
         
