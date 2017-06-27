@@ -5,7 +5,7 @@ function init(){
 		$('#menu_page').slideToggle(100,"linear");
 		$('#menu-icon').toggle();
 		$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
-// 		$('.logo_container').toggle();
+        // $('.logo_container').toggle();
 	});
 	
     // $('#open_menu').click(function(){
