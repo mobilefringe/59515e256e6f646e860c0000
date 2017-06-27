@@ -91,7 +91,7 @@
                         <hr>
                         <div>
                             <a href="/"><label>HOME</label></a>
-                            <a href="/stores"><label>YOUR LOCATION</label></a>
+                            <a href="/location"><label>YOUR LOCATION</label></a>
                             <a href="/stores"><label>STORES</label></a>
                             <a href="/stores"><label>PROMOTIONS</label></a>
                             <a href="/stores"><label>>PATH MAP</label></a>
