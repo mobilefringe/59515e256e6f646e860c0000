@@ -91,8 +91,8 @@
                         <hr>
                         <div>
                             <label><a href="/stores">HOME</a></label>
-                            <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
-                            <li><a href="/dine">STORES</a></li>
+                            <label><a href="/events-and-promotions">YOUR LOCATION</a></label>
+                            <label><a href="/dine">STORES</a></li>
                             <li><a href="/location">PROMOTIONS</a></li>
                             <li><a href="#" id="mobile_dd">PATH MAP</a></li>
                             <li class="hidden_now mobile_menu_dd"><a href="/pages/shopsatrossmoor-services">SERVICES</a></li>
