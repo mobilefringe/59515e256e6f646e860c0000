@@ -23,7 +23,7 @@
         var categories = getStoreCategories();
         //renderStoreListCatetories('#category_list_container','#category_list_template', categories,stores);
         
-        renderGeneral('#category_list_container','#category_list_template', categories)
+        renderGeneral('#category_list_container','#category_list_template', categories);
         show_content();
         
     }
