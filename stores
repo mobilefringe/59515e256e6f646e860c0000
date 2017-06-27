@@ -7,18 +7,23 @@
         <div class="all_caps cat_name">
             Dine
         </div>
+        <hr>
         <div class="all_caps cat_name">
             Shop
         </div>
+        <hr>
         <div class="all_caps cat_name">
             Play
         </div>
+        <hr>
         <div class="all_caps cat_name">
             Service
         </div>
+        <hr>
         <div class="all_caps cat_name">
             Stay
         </div>
+        <hr>
     </div>
     <!--<div id="category_list_container">-->
     <!--    <script id="category_list_template" type="x-tmpl-mustache/text">-->
