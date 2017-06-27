@@ -1,5 +1,5 @@
 $('document').ready(function() {
-     $('#menu-icon').click(function(){
+    $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle(100,"linear");
 		$('#menu-icon').toggle();
