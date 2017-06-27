@@ -10,6 +10,7 @@
         <div class="cat_name" id="dine_stores_container">
             <script id="dine_stores_template">
                 <div class="col-xs-6">
+                    {{name}}
                 </div>
                 <div class="col-xs-6">
                 </div>
