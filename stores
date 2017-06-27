@@ -10,15 +10,15 @@
         <div class="hidden_now" id="dine_store_list">
         <div class="cat_name" id="dine_stores_container">
             <script id="dine_stores_template" type="x-tmpl-mustache/text">
-            <div class="row">
-                <div class="col-xs-6">
-                    {{name}} 
-                    <br/>
-                    {{block}}
-                </div>
-                <div class="col-xs-6">
-                    April 27-29
-                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        {{name}} 
+                        <br/>
+                        {{block}}
+                    </div>
+                    <div class="col-xs-6">
+                        April 27-29
+                    </div>
                 </div>
             </script>
         </div>
