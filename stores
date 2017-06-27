@@ -8,7 +8,7 @@
             Dine
         </div>
         <div class="cat_name hidden_now" id="dine_stores_container">
-            <script id="dine_stores_template">
+            <script id="dine_stores_template" type="x-tmpl-mustache/text>
                 <div class="col-xs-6">
                     {{name}}
                 </div>
