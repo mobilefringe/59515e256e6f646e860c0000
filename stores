@@ -60,7 +60,7 @@
         var stores_dine = getStoresListByCategoryID(3744);
         renderStoreList('#dine_stores_container','#dine_stores_template', stores_dine);
         $("#dine").click(function(){
-            $("#dine_stores_container").toggle();
+            $("#dine_store_list").toggle();
         });
         show_content();
         
