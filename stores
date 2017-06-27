@@ -8,21 +8,21 @@
             Dine
         </div>
         <div class="hidden_now" id="dine_store_list">
-        <div class="cat_name" id="dine_stores_container">
-            <script id="dine_stores_template" type="x-tmpl-mustache/text">
-                <div class="row">
-                    <div class="col-xs-6">
-                        {{name}} 
-                        <br/>
-                        {{block}}
+            <div class="cat_name" id="dine_stores_container">
+                <script id="dine_stores_template" type="x-tmpl-mustache/text">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            {{name}} 
+                            <br/>
+                            {{block}}
+                        </div>
+                        <div class="col-xs-6">
+                            April 27-29
+                        </div>
                     </div>
-                    <div class="col-xs-6">
-                        April 27-29
-                    </div>
-                </div>
-                 <hr>
-            </script>
-        </div>
+                     <hr>
+                </script>
+            </div>
         </div>
         <hr>
         <div class="all_caps cat_name">
