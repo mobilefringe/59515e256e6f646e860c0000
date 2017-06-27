@@ -1,5 +1,7 @@
 <div>
-    Blank Website
+    <div>
+        
+    </div>
 </div>
 <script>
     $(document).ready(function(){
