@@ -77,7 +77,7 @@
             <div class="position_relative">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/menu Button 2x.png" class="open_menu visible_phone menu-icon" alt="open menu" id="menu-icon">
                 <div id="menu_page">
-                <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/Close Button 2x.png" class="close_menu visible_phone" alt="open menu" id="menu-icon">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498507078000/Close Button 2x.png" class="close_menu visible_phone menu-icon" alt="open menu" id="menu-icon">
                     <ul>
                         <li><a href="/stores">HOME</a></li>
                         <li><a href="/events-and-promotions">YOUR LOCATION</a></li>
