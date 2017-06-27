@@ -14,6 +14,15 @@ $('document').ready(function(e) {
         $(".custom_backdrop").remove();
         // $('.logo_container').toggle();
     });
+    
+    $('#search_mobile').click(function(e){
+        $('#mobile_search').show();
+        $('.social_icon_mobile').hide();
+        $('#m_search').hide();
+        $('#m_search_close').show();
+        $('#mobile_search_box').focus();
+        e.preventDefault();
+    });
 });
 function init(e){
     
