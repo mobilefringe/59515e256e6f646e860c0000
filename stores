@@ -26,19 +26,19 @@
             </div>
         </div>
        
-        <div class="all_caps cat_name">
+        <div class="all_caps cat_name cat_title">
             Shop
         </div>
         <hr>
-        <div class="all_caps cat_name">
+        <div class="all_caps cat_name cat_title">
             Play
         </div>
         <hr>
-        <div class="all_caps cat_name">
+        <div class="all_caps cat_name cat_title">
             Service
         </div>
         <hr>
-        <div class="all_caps cat_name">
+        <div class="all_caps cat_name cat_title">
             Stay
         </div>
         <hr>
