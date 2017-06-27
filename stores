@@ -6,7 +6,7 @@
     
     <div id="category_list_container">
         <script id="category_list_template" type="x-tmpl-mustache/text">
-            
+            {{name}}
         </script>
         
     </div>
