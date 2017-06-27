@@ -6,12 +6,6 @@ $('document').ready(function(e) {
         $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
         // $('.logo_container').toggle();
 	});
-	
-    // $('#open_menu').click(function(){
-    //     $('#mobile_menu').slideDown();
-    //     $(this).hide();
-    //     $('#close_menu').show();
-    // });
     
     $('.close_menu').click(function(){
         $('#menu_page').slideUp();
