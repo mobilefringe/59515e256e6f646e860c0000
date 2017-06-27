@@ -10,15 +10,19 @@
         </div>
         <div class="all_caps cat_name">
             Shop
+            <hr>
         </div>
         <div class="all_caps cat_name">
             Play
+            <hr>
         </div>
         <div class="all_caps cat_name">
             Service
+            <hr>
         </div>
         <div class="all_caps cat_name">
             Stay
+            <hr>
         </div>
     </div>
     <!--<div id="category_list_container">-->
