@@ -48,7 +48,7 @@
         
         $("#dine").click(function(){
             
-        })
+        });
         show_content();
         
     }
