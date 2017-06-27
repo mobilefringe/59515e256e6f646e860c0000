@@ -3,8 +3,10 @@
         Stores Directory
     </div>
     <h4 class="all_caps home_title"> Discover The Toronto Path</h4>
-    <div class="cat_name>
+    <div >
+         <div class="cat_name>
         
+    </div>
     </div>
     <!--<div id="category_list_container">-->
     <!--    <script id="category_list_template" type="x-tmpl-mustache/text">-->
