@@ -9,6 +9,7 @@ function init(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle();
 		$('#menu-icon').toggle();
+		$('<div class="modal-backdrop custom_backdrop custom_backdrop_video" style="z-index:4"></div>').appendTo(document.body);
 // 		$('.logo_container').toggle();
 	});
 	
