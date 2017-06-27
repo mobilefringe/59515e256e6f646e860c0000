@@ -11,3 +11,19 @@
         
     </div>
 </div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallData(renderAll); 
+    });
+    
+    function renderAll(){
+            
+       
+        show_content();
+        
+    }
+    
+    
+</script>
