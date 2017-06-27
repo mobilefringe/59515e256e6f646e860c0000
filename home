@@ -31,6 +31,19 @@
             $('#mobile_search_box').focus();
             e.preventDefault();
         });
+        
+    $('#close_search_mobile').click(function(e){
+        $('#mobile_search').hide();
+        $('.social_icon_mobile').show();
+        $('#m_search').show();
+        $('#m_search_close').hide();
+        e.preventDefault();
+    });
+    
+    $('#mobile_search_form').submit(function(e){
+        e.preventDefault();
+        window.location.href = "/search?query=" + $('#mobile_search_box').val();
+    });
         show_content();
         
     }
