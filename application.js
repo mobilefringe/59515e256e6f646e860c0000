@@ -22,6 +22,7 @@ function init(){
         $('#menu_page').slideUp();
         $(this).hide();
         $('.open_menu').toggle();
+        $('.logo_container').toggle();
     });
 	
 }
