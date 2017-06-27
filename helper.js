@@ -28,6 +28,5 @@ function init(e){
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
-       $('.panel-collapse').removeClass('in')
     }
 }
