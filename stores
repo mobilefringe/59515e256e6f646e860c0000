@@ -13,7 +13,7 @@
                     {{name}}
                 </div>
                 <div class="col-xs-6">
-                    {{date}}
+                    April 27-29
                 </div>
             </script>
         </div>
