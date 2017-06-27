@@ -1,6 +1,10 @@
 <div class="home_page">
     <div class="gray_bar">
-        search here! 
+        <div id="mobile_search" style="display:none" class="col-xs-10">
+                                <form id="mobile_search_form" class="no_margin">
+                                    <input id="mobile_search_box" type="text" placeholder="Type here to search" title="search" />
+                                </form>
+                            </div>
         <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498575328000/Search Icon.png" class="search_icon" alt="">
     </div>
      <h4 class="all_caps home_title"> Discover The Toronto Path</h4>
