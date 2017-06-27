@@ -19,7 +19,7 @@ function init(){
     // });
     
     $('.close_menu').click(function(){
-        $('#mobile_menu').slideUp();
+        $('#menu_page').slideUp();
         $(this).hide();
         $('#open_menu').show();
     });
