@@ -8,7 +8,7 @@ $('document').ready(function(e) {
 	});
     
     $('.close_menu').click(function(){
-        $('#menu_page').slideUp();
+        $('#menu_page').hide();
         //$(this).hide();
         $('#menu-icon').toggle();
         $(".custom_backdrop").remove();
