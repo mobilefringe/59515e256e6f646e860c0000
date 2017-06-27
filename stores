@@ -6,7 +6,7 @@
     <div class="store_cat_listing">
         <div class="all_caps cat_title" id="dine">
             Dine
-            <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498596224000/up_arrow_2x.png" class="" alt="">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498596224000/up_arrow_2x.png" class="up_arrow" alt="">
         </div>
          <hr>
         <div class="hidden_now" id="dine_store_list">
