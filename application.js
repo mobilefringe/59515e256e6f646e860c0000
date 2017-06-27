@@ -23,6 +23,7 @@ function init(){
         $('#menu_page').slideUp();
         $(this).hide();
         $('#menu-icon').toggle();
+        $(".custom_backdrop").remove();
         // $('.logo_container').toggle();
     });
 	
