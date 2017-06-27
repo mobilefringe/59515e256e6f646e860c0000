@@ -21,7 +21,7 @@ function init(){
     $('.close_menu').click(function(){
         $('#menu_page').slideUp();
         $(this).hide();
-        $('.open_menu').show();
+        $('.open_menu').toggle();
     });
 	
 }
