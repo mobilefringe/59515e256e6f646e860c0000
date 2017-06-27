@@ -8,8 +8,8 @@ function init(){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
 		$('#menu_page').slideToggle();
-		$('#menu-icon').toggle();
-		$('.logo_container').toggle();
+// 		$('#menu-icon').toggle();
+// 		$('.logo_container').toggle();
 	});
 	
     // $('#open_menu').click(function(){
@@ -21,8 +21,8 @@ function init(){
     $('.close_menu').click(function(){
         $('#menu_page').slideUp();
         $(this).hide();
-        $('.open_menu').toggle();
-        $('.logo_container').toggle();
+        // $('.open_menu').toggle();
+        // $('.logo_container').toggle();
     });
 	
 }
