@@ -7,7 +7,7 @@ function test_function(){
 function init(){
     $('#menu-icon').click(function(){
 		$(this).toggleClass('open');
-		$('#menu_page').slideToggle();
+		$('#menu_page').slideToggle(2000,"linear");
 		$('#menu-icon').toggle();
 		$('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
 // 		$('.logo_container').toggle();
