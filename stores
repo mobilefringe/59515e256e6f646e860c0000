@@ -4,7 +4,7 @@
     </div>
     <h4 class="all_caps home_title"> Discover The Toronto Path</h4>
     <div class="store_cat_listing">
-        <div class="all_caps cat_name" id="dine">
+        <div class="all_caps cat_name cat_title" id="dine">
             Dine
         </div>
          <hr>
