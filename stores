@@ -56,7 +56,7 @@
         
         //renderGeneral('#category_list_container','#category_list_template', categories);
         var stores_dine = getStoresListByCategoryID(3602);
-        renderStoreListCatetories('#category_list_container','#category_list_template', categories,stores);
+        renderStoreList('#category_list_container','#category_list_template', categories,stores);
         $("#dine").click(function(){
             $("#dine_stores_container").toggle();
         });
