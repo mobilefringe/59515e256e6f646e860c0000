@@ -157,9 +157,6 @@ function renderStoreListCatetories(container, template, category_list,stores){
                 else{
                     store.promotion_exist = "display:none";
                 }
-                if(store.phone.length < 1){
-                    store.phone_exist = "display:none";
-                }
                 var rendered = Mustache.render(template_html,store);
                 item_rendered.push(rendered);
                 count += 1;
