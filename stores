@@ -19,8 +19,7 @@
     });
     
     function renderAll(){
-            
-       
+        renderStoreListCatetories('#category_list_container','#category_list_template', leftSide, stores);
         show_content();
         
     }
