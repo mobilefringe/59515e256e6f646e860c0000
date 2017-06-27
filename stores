@@ -11,7 +11,9 @@
         <div class="cat_name" id="dine_stores_container">
             <script id="dine_stores_template" type="x-tmpl-mustache/text">
                 <div class="col-xs-6">
-                    {{name}}
+                    {{name}} 
+                    <br/>
+                    {{block}}
                 </div>
                 <div class="col-xs-6">
                     April 27-29
