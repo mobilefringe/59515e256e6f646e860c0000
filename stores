@@ -61,7 +61,6 @@
     function renderAll(){
         var stores = getStoresList();
         var categories = getStoreCategories();
-        var all_categories = getAllCategory();
         
         //renderGeneral('#category_list_container','#category_list_template', categories);
         var stores_dine = (getStoresListByCategoryID(3744)).concat(getStoresListByCategoryID(3633));
