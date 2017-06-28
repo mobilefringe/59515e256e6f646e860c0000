@@ -90,3 +90,22 @@ function getDineStores () {
     });
     return dine_stores;
 }
+function getShopStores () {
+    var all_categories = getStoreCategories();
+    var dine_categories_id = [];
+    var dine_stores = [];
+    $.each( all_categories , function( i, cat ) {
+        if((cat.name.indexOf("Food") > -1) || (cat.name.indexOf("Restaurant")> -1)) {
+            //console.log(cat);
+            dine_categories_id.push(cat.id);
+        }
+    });
+    $.each( dine_categories_id , function( i, val ) {
+        $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
+            
+            dine_stores.push(store);
+        });
+       //console.log(dine_stores);
+    });
+    return dine_stores;
+}
