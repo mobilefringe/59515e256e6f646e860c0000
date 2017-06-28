@@ -74,6 +74,6 @@ function getAllCategory(){
 function getDineStores () {
     var all_categories = getAllCategory();
     var dine_categories = [];
-     $.each( stores_byCat , function( i, store ) {
-     }
+    $.each( stores_byCat , function( i, store ) {
+    }
 }
