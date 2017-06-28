@@ -68,5 +68,5 @@ function getAllCategory(){
     //initData();
     var mallDataJSON = JSON.parse(getStorage().mallData);
     console.log("mallData",mallDataJSON.categories);
-    return getObjects(mallDataJSON.categories);
+    return mallDataJSON.categories;
 }
