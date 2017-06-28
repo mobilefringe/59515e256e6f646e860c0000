@@ -71,7 +71,7 @@ function sortByStoresName (item_list){
 //     return mallDataJSON.categories;
 // }
 
-function getDineStores () {
+function getDineStores (all_categories) {
     var all_categories = getStoreCategories();
     var dine_categories_id = [];
     var dine_stores = [];
