@@ -75,7 +75,7 @@ function getDineStores () {
     var all_categories = getAllCategory();
     var dine_categories = [];
     $.each( all_categories , function( i, cat ) {
-        if((cat.name.indexOf("Food")) || (cat.name.indexOf("Restaurant"))) {
+        if((cat.name.indexOf("Food") != -1) || (cat.name.indexOf("Restaurant"))) {
             
         }
     });
