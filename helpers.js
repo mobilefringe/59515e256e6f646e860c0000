@@ -80,7 +80,7 @@ function getDineStores () {
             dine_categories.push(cat.id);
         }
     });
-    $.each( dine_stores , function( i, cat ) {
+    $.each( dine_categories , function( i, cat ) {
         if((cat.name.indexOf("Food") > -1) || (cat.name.indexOf("Restaurant")> -1)) {
             dine_stores.push(cat.id);
         }
