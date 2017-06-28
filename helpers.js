@@ -64,12 +64,12 @@ function sortByStoresName (item_list){
     return item_list;
 }
 
-function getAllCategory(){
-    //initData();
-    var mallDataJSON = JSON.parse(getStorage().mallData);
-    //console.log("mallData",mallDataJSON.categories);
-    return mallDataJSON.categories;
-}
+// function getAllCategory(){
+//     //initData();
+//     var mallDataJSON = JSON.parse(getStorage().mallData);
+//     //console.log("mallData",mallDataJSON.categories);
+//     return mallDataJSON.categories;
+// }
 
 function getDineStores () {
     var all_categories = getAllCategory();
