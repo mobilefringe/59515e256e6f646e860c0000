@@ -81,9 +81,9 @@ function getDineStores () {
         }
     });
     $.each( dine_categories , function( i, val ) {
-        if((val.indexOf("Food") > -1) || (val.indexOf("Restaurant")> -1)) {
-            dine_stores.push(cat.id);
-        }
+        // if((val.indexOf("Food") > -1) || (val.indexOf("Restaurant")> -1)) {
+        //     dine_stores.push(cat.id);
+        // }
     });
     
     return dine_stores;
