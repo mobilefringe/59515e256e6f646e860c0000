@@ -85,4 +85,6 @@ function getDineStores () {
             dine_categories.push(cat.id);
         }
     });
+    
+    return dine_stores;
 }
