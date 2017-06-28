@@ -74,7 +74,7 @@
             $("#dine_store_list").toggle();
             $("#dine .up_arrow").toggle();
         });
-        renderStoreList('#dine_stores_container','#dine_stores_template', stores_dine);
+        renderStoreList('#shop_stores_container','#shop_stores_template', stores_dine);
         $("#dine").click(function(){
             $("#dine_store_list").toggle();
             $("#dine .up_arrow").toggle();
