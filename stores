@@ -156,7 +156,6 @@
             $("#play_store_list").toggle();
             $("#play .up_arrow").toggle();
         });
-        //Apparel
         show_content();
         
     }
