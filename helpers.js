@@ -84,7 +84,7 @@ function getDineStores () {
         // if((val.indexOf("Food") > -1) || (val.indexOf("Restaurant")> -1)) {
         //     dine_stores.push(cat.id);
         // }
-        dine_stores.push(getStoresListByCategoryID(val););
+        dine_stores.push(getStoresListByCategoryID(val));
     });
     
     return dine_stores;
