@@ -75,9 +75,9 @@
             $("#dine .up_arrow").toggle();
         });
         renderStoreList('#shop_stores_container','#shop_stores_template', stores_shop);
-        $("#dine").click(function(){
-            $("#dine_store_list").toggle();
-            $("#dine .up_arrow").toggle();
+        $("#shop").click(function(){
+            $("#shop_store_list").toggle();
+            $("#shop .up_arrow").toggle();
         });
         
         //Apparel
