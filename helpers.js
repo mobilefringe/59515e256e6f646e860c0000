@@ -93,7 +93,7 @@ function getDineStores (all_categories) {
 function getShopStores (all_categories) {
    // var all_categories = getStoreCategories();
     var shop_categories_id = [];
-    var dine_stores = [];
+    var shop_stores = [];
     $.each( all_categories , function( i, cat ) {
         if((cat.name.indexOf("Food") > -1) || (cat.name.indexOf("Restaurant")> -1)) {
             //console.log(cat);
