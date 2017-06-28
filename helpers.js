@@ -89,8 +89,8 @@ function getDineStores () {
         //console.log(getStoresListByCategoryID(parseInt(val)));
         //dine_stores.concat(getStoresListByCategoryID(parseInt(val)));
         $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
-        
             
+            dine_stores.push(store);
         });
        console.log(dine_stores);
     });
