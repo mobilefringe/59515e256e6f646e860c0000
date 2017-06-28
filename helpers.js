@@ -95,7 +95,7 @@ function getShopStores (all_categories) {
     var shop_categories_id = [];
     var shop_stores = [];
     $.each( all_categories , function( i, cat ) {
-        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1) || (cat.name.indexOf("Jewellery")> -1)|| (cat.name.indexOf("'s Wear")> -1)|| (cat.name.indexOf("Toys")> -1)|| (cat.name.indexOf("Athletic")> -1)|| (cat.name.indexOf("Stationary")> -1)) {Beauty Product
+        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1) || (cat.name.indexOf("Jewellery")> -1)|| (cat.name.indexOf("'s Wear")> -1)|| (cat.name.indexOf("Toys")> -1)|| (cat.name.indexOf("Athletic")> -1)|| (cat.name.indexOf("Stationary")> -1)|| (cat.name.indexOf("Stationary")> -1))|| (cat.name.indexOf("Stationary")> -1) || (cat.name.indexOf("Stationary")> -1)){Beauty Product
             //console.log(cat);
             shop_categories_id.push(cat.id);
         }
