@@ -616,7 +616,7 @@ function renderEventDetails(container, template, collection){
 }
 
 function getPropertyDetailsForIds(property_ids){
-    var jobs=[];
+    var property=[];
     var all_jobs = getJobsList();
     for (i = 0; i < all_jobs.length; i++) {
         for (j = 0; j < jobs_ids.length; j++) { 
