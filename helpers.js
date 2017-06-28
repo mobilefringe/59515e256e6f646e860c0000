@@ -92,7 +92,7 @@ function getDineStores () {
             
             dine_stores.push(store);
         });
-       console.log(dine_stores);
+       //console.log(dine_stores);
     });
     
     return dine_stores;
