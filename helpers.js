@@ -91,7 +91,7 @@ function getDineStores () {
     return dine_stores;
 }
 function getShopStores (all_categories) {
-    var all_categories = getStoreCategories();
+   // var all_categories = getStoreCategories();
     var dine_categories_id = [];
     var dine_stores = [];
     $.each( all_categories , function( i, cat ) {
