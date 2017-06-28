@@ -151,7 +151,7 @@
             $("#shop_store_list").toggle();
             $("#shop .up_arrow").toggle();
         });
-        renderStoreList('#shop_stores_container','#shop_stores_template', stores_shop);
+        renderStoreList('#play_stores_container','#play_stores_template', stores_play);
         $("#shop").click(function(){
             $("#shop_store_list").toggle();
             $("#shop .up_arrow").toggle();
