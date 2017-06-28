@@ -72,6 +72,9 @@
             $("#dine_store_list").toggle();
             $("#dine .up_arrow").toggle();
         });
+        
+        
+        Apparel
         show_content();
         
     }
