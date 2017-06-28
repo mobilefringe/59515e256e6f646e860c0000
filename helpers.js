@@ -95,7 +95,7 @@ function getShopStores (all_categories) {
     var shop_categories_id = [];
     var shop_stores = [];
     $.each( all_categories , function( i, cat ) {
-        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1)) {
+        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1) || (cat.name.indexOf("Accessories")> -1)) {
             //console.log(cat);
             dine_categories_id.push(cat.id);
         }
