@@ -62,8 +62,7 @@
         var stores = getStoresList();
         var categories = getStoreCategories();
         var all_categories = getAllCategory();
-        console.log(all_categories)
-;        
+        console.log(all_categories);
         //renderGeneral('#category_list_container','#category_list_template', categories);
         var stores_dine = (getStoresListByCategoryID(3744)).concat(getStoresListByCategoryID(3633));
        // var unique_stores= stores_dine.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]);
