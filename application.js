@@ -614,3 +614,17 @@ function renderEventDetails(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
+
+function getPropertyDetailsForIds(property_ids){
+    var jobs=[];
+    var all_jobs = getJobsList();
+    for (i = 0; i < all_jobs.length; i++) {
+        for (j = 0; j < jobs_ids.length; j++) { 
+            if(jobs_ids[j] == all_jobs[i].id){
+                jobs.push(all_jobs[i]);
+                
+            }
+        }
+    }
+    return jobs;
+}
