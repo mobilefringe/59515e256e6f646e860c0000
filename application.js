@@ -442,7 +442,7 @@ function renderPromoDetails(container, template, collection){
         }
         else{
             val.store_name = "The Toronto Path";
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+            val.image_url = "//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498506681000/PathLogo2x.png";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
