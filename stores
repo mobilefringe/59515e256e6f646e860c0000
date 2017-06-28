@@ -31,7 +31,24 @@
             Shop
             <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498596224000/up_arrow_2x.png" class="up_arrow pull-right hidden_now" alt="">
         </div>
-        <hr>
+         <hr>
+        <div class="hidden_now" id="dine_store_list">
+            <div class="" id="dine_stores_container">
+                <script id="dine_stores_template" type="x-tmpl-mustache/text">
+                    <div class="row cat_name">
+                        <div class="col-xs-6 align_left">
+                            {{name}} 
+                            <br/>
+                            Building Name
+                        </div>
+                        <div class="col-xs-6 align_right">
+                            April 27-29
+                        </div>
+                    </div>
+                     <hr>
+                </script>
+            </div>
+        </div>
         <div class="all_caps cat_title">
             Play
             <img src="//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498596224000/up_arrow_2x.png" class="up_arrow pull-right hidden_now" alt="">
