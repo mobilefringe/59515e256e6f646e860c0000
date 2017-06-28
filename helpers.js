@@ -90,7 +90,7 @@ function getDineStores () {
     });
     return dine_stores;
 }
-function getShopStores () {
+function getShopStores (all_categories) {
     var all_categories = getStoreCategories();
     var dine_categories_id = [];
     var dine_stores = [];
