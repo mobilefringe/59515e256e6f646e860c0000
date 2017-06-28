@@ -72,7 +72,7 @@ function sortByStoresName (item_list){
 // }
 
 function getDineStores () {
-    var all_categories = getAllCategory();
+    var all_categories = getStoreCategories();
     var dine_categories_id = [];
     var dine_stores = [];
     $.each( all_categories , function( i, cat ) {
