@@ -72,5 +72,5 @@ function getAllCategory(){
 }
 
 function getDineStores () {
-    
+    var all_categories = getAllCategory();
 }
