@@ -67,7 +67,7 @@
         var stores_dine = (getStoresListByCategoryID(3744)).concat(getStoresListByCategoryID(3633));
        // var unique_stores= stores_dine.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]);
         console.log(stores_dine);
-        stores_dine =sortByStoreName(stores_dine);
+        stores_dine =sortByStoresName(stores_dine);
         renderStoreList('#dine_stores_container','#dine_stores_template', stores_dine);
         $("#dine").click(function(){
             $("#dine_store_list").toggle();
