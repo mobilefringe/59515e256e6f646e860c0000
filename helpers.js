@@ -67,5 +67,5 @@ function sortByStoresName (item_list){
 function getAllCategory(){
     initData();
     var mallDataJSON = JSON.parse(getStorage().mallData);
-    return getObjects(mallDataJSON.categories,'id',category_id)[0];
+    return getObjects(mallDataJSON.categories)[0];
 }
