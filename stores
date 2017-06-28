@@ -140,7 +140,7 @@
         var stores_play =getPlayStores(all_categories);
         stores_dine =sortByStoresName(stores_dine);
         stores_shop =sortByStoresName(stores_shop);
-        stores_play =sortByStoresName(stores_shop);
+        stores_play =sortByStoresName(stores_play);
         renderStoreList('#dine_stores_container','#dine_stores_template', stores_dine);
         $("#dine").click(function(){
             $("#dine_store_list").toggle();
