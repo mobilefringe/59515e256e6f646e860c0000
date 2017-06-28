@@ -63,3 +63,9 @@ function sortByStoresName (item_list){
     });
     return item_list;
 }
+
+function getAllCategory(){
+    initData();
+    var mallDataJSON = JSON.parse(getStorage().mallData);
+    return getObjects(mallDataJSON.categories,'id',category_id)[0];
+}
