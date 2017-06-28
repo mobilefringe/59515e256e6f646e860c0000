@@ -63,7 +63,7 @@
         var categories = getStoreCategories();
         
         //renderGeneral('#category_list_container','#category_list_template', categories);
-        var stores_dine = (getStoresListByCategoryID(3744)).concat(getStoresListByCategoryID(3633));
+        var stores_dine = getDineStores();
        // var unique_stores= stores_dine.reduce(function(a,b){if(a.indexOf(b)<0)a.push(b);return a;},[]);
         console.log(stores_dine);
         stores_dine =sortByStoresName(stores_dine);
