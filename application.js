@@ -583,7 +583,7 @@ function renderEventDetails(container, template, collection){
             val.store_name = "The Toronto Path";
             val.image_url  = val.event_image_url_abs;
             if(val.image_url.indexOf('missing.png') > 0){
-                val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
+                val.image_url = "//codecloud.cdn.speedyrails.net/sites/59515e256e6f646e860c0000/image/png/1498506681000/PathLogo2x.png";
             }
         }
         
