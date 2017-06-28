@@ -115,7 +115,7 @@ function getPlayStores (all_categories) {
     var play_categories_id = [];
     var play_stores = [];
     $.each( all_categories , function( i, cat ) {
-        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1)){
+        if((cat.name.indexOf("Toys") > -1) || (cat.name.indexOf("Accessories")> -1)){
             //console.log(cat);
             play_categories_id.push(cat.id);
         }
