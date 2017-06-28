@@ -151,7 +151,11 @@
             $("#shop_store_list").toggle();
             $("#shop .up_arrow").toggle();
         });
-        
+        renderStoreList('#shop_stores_container','#shop_stores_template', stores_shop);
+        $("#shop").click(function(){
+            $("#shop_store_list").toggle();
+            $("#shop .up_arrow").toggle();
+        });
         //Apparel
         show_content();
         
