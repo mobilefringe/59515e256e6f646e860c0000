@@ -73,7 +73,7 @@ function getAllCategory(){
 
 function getDineStores () {
     var all_categories = getAllCategory();
-    var dine_categories = [];
+    var dine_categories_id = [];
     $.each( all_categories , function( i, cat ) {
         if((cat.name.indexOf("Food") > -1) || (cat.name.indexOf("Restaurant")> -1)) {
             dine_categories.push(cat.id);
