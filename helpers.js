@@ -109,3 +109,23 @@ function getShopStores (all_categories) {
     });
     return shop_stores;
 }
+
+function getPlayStores (all_categories) {
+   // var all_categories = getStoreCategories();
+    var play_categories_id = [];
+    var play_stores = [];
+    $.each( all_categories , function( i, cat ) {
+        if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1) || (cat.name.indexOf("Jewellery")> -1)|| (cat.name.indexOf("'s Wear")> -1)|| (cat.name.indexOf("Toys")> -1)|| (cat.name.indexOf("Athletic")> -1)|| (cat.name.indexOf("Stationary")> -1)|| (cat.name.indexOf("Beauty Product")> -1) || (cat.name.indexOf("Drugstore")> -1) || (cat.name.indexOf("Stationary")> -1)){
+            //console.log(cat);
+            play_categories_id.push(cat.id);
+        }
+    });
+    $.each( play_categories_id , function( i, val ) {
+        $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
+            
+            play_stores.push(store);
+        });
+       //console.log(dine_stores);
+    });
+    return play_stores;
+}
