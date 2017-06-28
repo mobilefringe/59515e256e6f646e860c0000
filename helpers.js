@@ -70,3 +70,7 @@ function getAllCategory(){
     //console.log("mallData",mallDataJSON.categories);
     return mallDataJSON.categories;
 }
+
+function getDineStores () {
+    
+}
