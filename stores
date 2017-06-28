@@ -59,7 +59,7 @@
     });
     
     function renderAll(){
-        var stores = getStoresList();
+        //var stores = getStoresList();
         //var categories = getStoreCategories();
         
         //renderGeneral('#category_list_container','#category_list_template', categories);
