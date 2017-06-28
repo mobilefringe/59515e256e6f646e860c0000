@@ -55,7 +55,7 @@ function remove_duplicates( ){
     
 }
 
-function sortByStoreName (){
+function sortByStoreName (item_list){
     item_list.sort(function(a, b) {
         var textA = a.name.toUpperCase();
         var textB = b.name.toUpperCase();
