@@ -88,6 +88,5 @@ function getDineStores () {
         });
        //console.log(dine_stores);
     });
-    
     return dine_stores;
 }
