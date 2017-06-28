@@ -97,10 +97,10 @@ function getShopStores (all_categories) {
     $.each( all_categories , function( i, cat ) {
         if((cat.name.indexOf("Apparel") > -1) || (cat.name.indexOf("Accessories")> -1) || (cat.name.indexOf("Jewellery")> -1)|| (cat.name.indexOf("'s Wear")> -1)|| (cat.name.indexOf("Toys")> -1)|| (cat.name.indexOf("'s Wear")> -1)|| (cat.name.indexOf("'s Wear")> -1)) {
             //console.log(cat);
-            dine_categories_id.push(cat.id);
+            shop_categories_id.push(cat.id);
         }
     });
-    $.each( dine_categories_id , function( i, val ) {
+    $.each( shop_categories_id , function( i, val ) {
         $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
             
             shop_stores.push(store);
