@@ -103,9 +103,9 @@ function getShopStores (all_categories) {
     $.each( dine_categories_id , function( i, val ) {
         $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
             
-            dine_stores.push(store);
+            shop_stores.push(store);
         });
        //console.log(dine_stores);
     });
-    return dine_stores;
+    return shop_stores;
 }
