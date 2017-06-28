@@ -86,7 +86,7 @@ function getDineStores () {
         //     dine_stores.push(cat.id);
         // }
        // console.log("id=" ,val);
-        dine_stores.push(getStoresListByCategoryID(val));
+        dine_stores.push(getStoresListByCategoryID( var category_id = parseInt(val)));
        // console.log(getStoresListByCategoryID(val));
     });
     
