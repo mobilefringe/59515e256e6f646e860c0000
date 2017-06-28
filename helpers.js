@@ -79,5 +79,9 @@ function getDineStores () {
             dine_categories.push(cat.id);
         }
     });
-    
+    $.each( all_categories , function( i, cat ) {
+        if((cat.name.indexOf("Food") > -1) || (cat.name.indexOf("Restaurant")> -1)) {
+            dine_categories.push(cat.id);
+        }
+    });
 }
