@@ -82,12 +82,7 @@ function getDineStores () {
         }
     });
     $.each( dine_categories_id , function( i, val ) {
-        // if((val.indexOf("Food") > -1) || (val.indexOf("Restaurant")> -1)) {
-        //     dine_stores.push(cat.id);
-        // }
-       // console.log("id=" ,val);
-        //console.log(getStoresListByCategoryID(parseInt(val)));
-        //dine_stores.concat(getStoresListByCategoryID(parseInt(val)));
+        
         $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
             
             dine_stores.push(store);
