@@ -82,7 +82,6 @@ function getDineStores () {
         }
     });
     $.each( dine_categories_id , function( i, val ) {
-        
         $.each( getStoresListByCategoryID(parseInt(val)) , function( i, store ) {
             
             dine_stores.push(store);
