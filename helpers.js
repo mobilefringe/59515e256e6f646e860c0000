@@ -54,3 +54,11 @@ function show_content(){
 function remove_duplicates( ){
     
 }
+
+function sortByStoreName (){
+    item_list.sort(function(a, b) {
+        var textA = a.name.toUpperCase();
+        var textB = b.name.toUpperCase();
+        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+    });
+}
