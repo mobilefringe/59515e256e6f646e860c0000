@@ -88,7 +88,7 @@ function getDineStores () {
        // console.log("id=" ,val);
        console.log(getStoresListByCategoryID(parseInt(val)));
         dine_stores.push(getStoresListByCategoryID(parseInt(val)));
-       // 
+       
     });
     
     return dine_stores;
