@@ -79,4 +79,5 @@ function getDineStores () {
             dine_categories.push(cat.id);
         }
     });
+    
 }
