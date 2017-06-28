@@ -529,7 +529,7 @@ function renderEvents(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "St. Vital Centre";
+            val.store_name = "The Toronto Path";
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/image/png/1495569752000/logo.png";
         }
         if(val.event_image_url_abs.indexOf('missing.png') < 0){
