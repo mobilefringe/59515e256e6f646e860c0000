@@ -1,3 +1,120 @@
+<style>
+    .construction-info2 {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-family: ChronicleDisplay-Roman;
+    font-style: italic;
+}
+        .wrap-90{
+            max-width: 980px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+       .sporting-life h1{
+            font-family: ChronicleDisplay-Italic;
+            font-size: 3.0em;
+            letter-spacing: 1px;
+        }
+        .subtitle{
+            font-size:45px;  
+            font-family: ChronicleDisplay-Roman;
+            line-height:1.3em;
+            margin-bottom:30px;
+            letter-spacing: 1.5px;
+            padding-left: 45px;
+            padding-right: 45px;
+        }
+        .gray_divider{
+            padding:10px;
+            max-width: 400px;
+        }
+        .sporting-logo{
+            margin-bottom: 30px;
+        }
+        .sporting-img{
+            margin-top:50px; 
+            margin-bottom:50px;
+            padding:7px;
+            border: solid 1px #CCC; -moz-box-shadow: 1px 1px 5px #999; -webkit-box-shadow: 1px 1px 5px #999; box-shadow: 1px 1px 5px #999;
+        }
+        .capital{
+            text-transform: uppercase;
+        }
+        p{
+            padding:40px; 
+            padding-top:20px;
+            padding-bottom:20px;
+            margin-bottom: 0px;
+            font-family: Whitney-light;
+        }
+        .const-para{
+            padding-left:10px;
+            padding-right:10px;
+        }
+        p a:link, a:visited{
+            color: black;
+            font-weight: bold;
+        }
+        .construction-info{
+    font-size: 52px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: ChronicleDisplay-Roman;
+}
+        
+        @media(max-width:767px){
+            .construction-info, .subtitle{
+                font-size:25px;  
+            }
+            .construction-info{
+                margin-top:50px;
+            }
+            .subtitle{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+            .wrap-90{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+           .sporting-logo{
+                margin-top: 20px;
+            }
+            .sporting-img{
+                margin-top:50px;    
+            }
+            p{
+                margin-bottom: 0px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+    </style>
+    <div class="main_content">
+          <section class="sporting-life">
+            <div class="section_content" style="display:block;">
+              <div class="wrap-90">
+                    <img alt="sporting logo" class="sporting-logo" src="/system/site_images/photos/000/007/532/original/Logo.png?1426779929" />
+                    
+                    <div class="gray_divider"></div>
+                    <h1>Opening October 6, 2016</h1>
+                    <div class="gray_divider"></div>
+                    
+                    <img  alt="fall 2016" class="sporting-img" src="/system/site_images/photos/000/007/519/original/CAM_01-R01.jpg?1426711422" />
+              
+                  <div class="subtitle">SPORTING LIFE WILL OPEN <i>THEIR first</i> WESTERN CANADIAN STORE, <i>at</i> SOUTHCENTRE, Thurs, Oct. 6, 2016. </div>
+              
+                   <div class="gray_divider"></div>
+                   <p style="margin-top:15px;" class="capital">Sporting Life is a Canadian retailer offering quality, brand name fashion and sports equipment. </p>
+                   <p  class="capital">For more information about Sporting Life, see <a target="_blank" href="http://www.sportinglife.ca">www.sportinglife.ca</a></p>
+                    
+                    
+              </div>
+            </div>
+        </section>
+    </div>
+
 <div class="container">
     <div class="large-12 columns">
         <img src="http://assets.codecloudapp.com/sites/59515e256e6f646e860c0000/image/png/1503603332000/SOM_290_SummerBash_WebPage_FA.png" alt="">
