@@ -47,6 +47,7 @@
             padding-bottom:20px;
             margin-bottom: 0px;
             font-family: Whitney-light;
+            text-align:center;
         }
         .const-para{
             padding-left:10px;
@@ -85,7 +86,6 @@
                 margin-top:50px;    
             }
             p{
-                text-align:center;
                 margin-bottom: 0px;
                 padding-left: 0px;
                 padding-right: 0px;
