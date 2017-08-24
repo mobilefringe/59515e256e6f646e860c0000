@@ -85,6 +85,7 @@
                 margin-top:50px;    
             }
             p{
+                text-align:center;
                 margin-bottom: 0px;
                 padding-left: 0px;
                 padding-right: 0px;
