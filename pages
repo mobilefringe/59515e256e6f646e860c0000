@@ -5,27 +5,7 @@
             padding-left: 20px;
             padding-right: 20px;
         }
-       .sporting-life h1{
-            font-family: ChronicleDisplay-Italic;
-            font-size: 3.0em;
-            letter-spacing: 1px;
-        }
-        .subtitle{
-            font-size:45px;  
-            font-family: ChronicleDisplay-Roman;
-            line-height:1.3em;
-            margin-bottom:30px;
-            letter-spacing: 1.5px;
-            padding-left: 45px;
-            padding-right: 45px;
-        }
-        .gray_divider{
-            padding:10px;
-            max-width: 400px;
-        }
-        .sporting-logo{
-            margin-bottom: 30px;
-        }
+       
         .sporting-img{
             margin-top:50px; 
             margin-bottom:50px;
