@@ -1,11 +1,5 @@
 <style>
-    .construction-info2 {
-    font-size: 36px;
-    margin-top: 40px;
-    margin-bottom: 5px;
-    font-family: ChronicleDisplay-Roman;
-    font-style: italic;
-}
+    
         .wrap-90{
             max-width: 980px;
             padding-left: 20px;
