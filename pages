@@ -17,7 +17,7 @@
             text-transform: uppercase;
         }
         .extra_bold {
-                font-family: sans-serif;
+            font-family: sans-serif;
         }
         p{
             padding:40px; 
