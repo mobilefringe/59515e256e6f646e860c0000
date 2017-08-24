@@ -24,10 +24,6 @@
             font-family: Whitney-light;
             text-align:center;
         }
-        .const-para{
-            padding-left:10px;
-            padding-right:10px;
-        }
         p a:link, a:visited{
             color: black;
             font-weight: bold;
